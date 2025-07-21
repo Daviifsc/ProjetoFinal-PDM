@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Produtos</title>
+  <link rel="shortcut icon" href="IMAGENS/nota.ico" type="image/x-icon">
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+  <header class="menu-header">
+    <img src="IMAGENS/logo-nota.png" alt="Logo" class="logo" />
+    <h1>Loja do Davi</h1>
+    <button class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars fa-lg"></i></button>
+
+    <nav id="menu" class="menu">
+        <a href="#">Home</a>
+        <a href="#">Violões/Guitarras</a>
+        <a href="#">Baixos</a>
+        <a href="#">Bateria</a>
+        <a href="#">Teclados/Pianos</a>
+    </nav>
+  </header>
+  <h1 id="titulo">Catálogo de Produtos</h1>
+  <div id="carrinhoBox" class="carrinho-box">
+    <div class="carrinho-icone">
+        <i class="fa-solid fa-cart-shopping fa-lg"></i>
+    </div>
+    <div class="carrinho-info">
+        <strong>Carrinho</strong><br>
+        <span id="contadorItens">0 item(s)</span>
+    </div>
+  </div>
+
+  <main id="catalogo"></main>
+
+  <section id="detalhes-produto" class="detalhes-produto"">
+  </section>
+
+  <!-- link de ícones pegos do site fontawesome -->
+  <script src="https://kit.fontawesome.com/f855660349.js" crossorigin="anonymous"></script>
+
+  <!-- Javascript usado no projeto -->
+  <script src="JS/catalogo.js"></script>
+</body>
+</html>

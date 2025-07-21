@@ -1,0 +1,20 @@
+{
+  "name": "Loja do Davi App",
+  "short_name": "Davi App",
+  "start_url": "catalogo.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "IMAGENS/icone192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "IMAGENS/icone512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

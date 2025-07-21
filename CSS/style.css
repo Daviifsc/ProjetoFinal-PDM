@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+ 
+}
+
+/* Estilo base do header */
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.logo {
+  height: 60px;
+}
+
+/* Botão hamburguer */
+.menu-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Menu oculto por padrão */
+.menu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Classe que mostra o menu com animação */
+.menu.show {
+  max-height: 500px; 
+  opacity: 1;
+}
+
+.menu a {
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/*  Container do carrinho */
+.carrinho-box {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: sans-serif;
+  margin: 1rem 2rem 0 0;
+}
+
+.carrinho-icone {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.carrinho-info {
+  font-size: 0.9rem;
+}
+
+/* Container do catálogo */
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Estilização dos cards */
+.card {
+  background: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card p{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* Estilização da página de detalhes */
+.detalhes-produto {
+  padding: 1rem;
+  text-align: center;
+  width: 90%;
+}
+
+.detalhes-produto p{
+    font-size: 1.2rem;
+}
+
+.detalhes-produto #preco-produto{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.detalhes-produto img{
+    height: 400px;
+    width: 400px;
+}
+
+.detalhes-produto #btn-voltar{
+    margin: 0 60% 1rem 0;
+    padding: 1rem;
+}
+
+.detalhes-produto button {
+  padding: 1.5rem 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #FED73E;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+}
+.detalhes-produto button:hover {
+  background: #FED73E;
+}

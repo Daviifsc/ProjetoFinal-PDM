@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Guitarra Gibson Les Paul Standard",
+    "descricao": "Um dos modelos mais clássicos, eternizada por astros do rock. Esta guitarra possui um som inconfundível proveniente de seus captadores humbucker.",
+    "preco": 5000.00,  
+    "imagem": "../IMAGENS/gibson-lespaul.jpg"
+  },
+  {
+    "nome": "Baixo Yamaha 5 Cordas",
+    "descricao": "Excelente Baixo da Yamaha com 5 cordas. Perfeito para você que ama um groove.",
+    "preco": 3500.00,   
+    "imagem": "../IMAGENS/baixo-yamaha.jpeg"
+  },
+  {
+    "nome": "Violão Taylor Cordas de Aço",
+    "descricao": "Violão de altíssimo nível, perfeito para te acompanhar em todos os momentos.",
+    "preco": 3200.00,
+    "imagem": "../IMAGENS/violao-taylor.jpg"
+  }
+]
